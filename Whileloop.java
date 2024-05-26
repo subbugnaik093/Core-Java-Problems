@@ -1,18 +1,13 @@
 public class Whileloop {
     public static void main(String[] args) {
-        int i =1;
-        while (i<=5){
+        int i =6;
+        do{
            
-            System.out.println("Hello");
+            System.out.println("Hello " + i);
             i++;
-            int j=1;
-            while(j<=i-1){
-                System.out.println("AM doing");
-                j++;
-            
-            }
+           
         
-        }
+        }while (i<=5);
     }
     
 }
